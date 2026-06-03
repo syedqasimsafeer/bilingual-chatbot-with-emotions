@@ -45,41 +45,8 @@ The chatbot uses:
 
 Training a full generative chatbot from scratch requires very large GPU resources. This project uses a lightweight NLP retrieval method that is practical for Google Colab, GitHub, and Streamlit deployment.
 
-## Project Structure
-
-bilingual-emotion-chatbot/
-│
-├── app.py
-├── requirements.txt
-├── README.md
-├── .gitignore
-│
-├── models/
-│   ├── conversation_vectorizer.joblib
-│   ├── conversation_matrix.npz
-│   ├── conversation_data.joblib
-│   ├── support_vectorizer.joblib
-│   ├── support_matrix.npz
-│   └── support_data.joblib
-│
-├── artifacts/
-│   └── evaluation_results.csv
-│
-├── data/
-│   └── chatbot_sample.csv
-│
-└── notebooks/
-    └── 05_bilingual_emotion_chatbot.ipynb
-
-## How to Run
-
-Install dependencies:
-
-pip install -r requirements.txt
-
-Run the app:
-
-streamlit run app.py
+## Developemnt
+The chatbot is available at: https://bilingual-chatbot-with-emotions-tr.streamlit.app/
 
 ## Important Note
 
