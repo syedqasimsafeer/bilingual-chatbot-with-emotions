@@ -1,0 +1,5 @@
+metric,value
+mean_confidence,0.5629319650140477
+median_confidence,0.39693880513169844
+high_confidence_rate_0.15,0.988
+support_model_usage_rate,0.115
